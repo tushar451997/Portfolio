@@ -1,0 +1,13 @@
+.App {
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 450px) {
+  .App {
+    width: 100%;
+  }
+  .header {
+    border-radius: 0px;
+  }
+}
