@@ -3,7 +3,7 @@ import "./ProjectContainer.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
-const ProjectContainer = ({ link, image, imageAlt, title, techs, projectlink, github, githubLink }) => {
+const ProjectContainer = ({ link, image, title, techs, githubLink }) => {
   return (
   <>
 
@@ -26,8 +26,7 @@ const ProjectContainer = ({ link, image, imageAlt, title, techs, projectlink, gi
       rel="noreferrer"
 
     >
-      
-      <img src={projectlink} style={{ height: '25px', width: '25px' }}/>
+      <i class="fa-solid fa-display" style={{fontSize:"28px"}}></i>
     </a>
     <a
       href={githubLink}
@@ -35,7 +34,7 @@ const ProjectContainer = ({ link, image, imageAlt, title, techs, projectlink, gi
       rel="noreferrer"
 
     >
-      <img src={github} style={{ height: '30px', width: '30px' }}/>
+      <i className="icon fa-brands fa-github"></i>
     </a>
     </div>
     </div></>

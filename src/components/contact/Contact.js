@@ -12,7 +12,7 @@ const Contact = () => {
         >
           <li>
             <a
-              href="https://github.com/AbdElRahmanMostafa1"
+              href="https://github.com/tushar451997"
               target={"_blank"}
               rel="noreferrer"
             >
@@ -21,7 +21,7 @@ const Contact = () => {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/abdelrahman-mostafa-605831183/"
+              href="https://www.linkedin.com/in/tushar-nehe-73abb916a/"
               target={"_blank"}
               rel="noreferrer"
             >
