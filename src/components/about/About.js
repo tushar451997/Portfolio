@@ -10,15 +10,16 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faCalendar } from "@fortawesome/free-solid-svg-icons";
+
 const About = () => {
   const experience = [
     {
       companyImg:
       TongadimeImage,
       companyName: "Tongadive India Private Limited",
-      jobTitle: "Junior full Stack developer ",
-      startDate: "Jun, 2024 ",
-      endDate: "April 23",
+      jobTitle: "Junior full Stack developer - 1.4years ",
+      startDate: "Mar, 2023",
+      endDate: "Jun, 2024",
       companyCityLocation: "New Delhi",
       companyCountryLocation: "India",
       workingSite: "(Remote)",
@@ -36,22 +37,33 @@ const About = () => {
     {
       companyImg:
       TongadimeImage,
-      companyName: "Tongadive India Private Limited",
-      jobTitle: " full Stack developer(Intern) ",
-      startDate: "Mar, 2023",
-      endDate: "April 2023",
-      companyCityLocation: "New Delhi",
+      companyName: "CatalystCode Technologies",
+      jobTitle: "Reactjs Developer - 1.6years",
+      startDate: "Aug, 2021",
+      endDate: "Feb, 2023",
+      companyCityLocation: "Mumbai",
       companyCountryLocation: "India",
       workingSite: "(Remote)",
       techStack: [
         "ReactJs",
-        "Material UI",
+        "Bootstrap",
+        "Css",
         "Redux toolkit",
-        "Redux",
-        "NodeJs", 
-        "NestJs",
-        "TypeORM",
-        "PostgreSQL"
+        "Redux"
+      ],
+    },
+    {
+      companyImg:
+      TongadimeImage,
+      companyName: "BVG Tech.",
+      jobTitle: "Electrical Engineer - 1years",
+      startDate: "Dec, 2019",
+      endDate: "Dec, 2020",
+      companyCityLocation: "Mumbai",
+      companyCountryLocation: "India",
+      workingSite: "Pune",
+      techStack: [
+       "Autocad","Plc Programming"
       ],
     }
   ];
