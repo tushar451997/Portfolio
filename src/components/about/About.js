@@ -117,6 +117,9 @@ const About = () => {
           alt="Personal"
         />
       </article>
+      <div id="work">
+
+   
       <Header header={"Work Experience"} />
       <section
         className="main-section"
@@ -208,6 +211,7 @@ const About = () => {
           );
         })}
       </section>
+      </div>
     </section>
   );
 };

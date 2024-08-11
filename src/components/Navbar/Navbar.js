@@ -23,7 +23,7 @@ import Contact from '../contact/Contact';
 import About from '../about/About';
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Skills', 'Work', 'Contact'];
+const navItems = [ 'About', 'Skills', 'Work',"Projects", 'Contact'];
 
 function DrawerAppBar(props) {
   const { window } = props;
