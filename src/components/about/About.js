@@ -35,8 +35,7 @@ const About = () => {
       ],
     },
     {
-      companyImg:
-      TongadimeImage,
+      companyImg:'c',
       companyName: "CatalystCode Technologies",
       jobTitle: "Reactjs Developer - 1.6years",
       startDate: "Aug, 2021",
@@ -53,8 +52,7 @@ const About = () => {
       ],
     },
     {
-      companyImg:
-      TongadimeImage,
+      companyImg:'c',
       companyName: "BVG Tech.",
       jobTitle: "Electrical Engineer - 1years",
       startDate: "Dec, 2019",
